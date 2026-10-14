@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIMADU PJU Brebes</title>
+<link rel="manifest" href="manifest.json">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+<div class="max-w-xl mx-auto mt-8 bg-white p-6 rounded-xl shadow">
+<h1 class="text-2xl font-bold text-center">SIMADU PJU BREBES</h1>
+<p class="text-center mb-5">Aduan Penerangan Jalan Lingkungan Dinperwaskim</p>
+<form id="aduanForm">
+<input id="nama" class="border p-3 w-full mb-3" placeholder="Nama Pelapor">
+<input id="hp" class="border p-3 w-full mb-3" placeholder="Nomor HP">
+<input id="alamat" class="border p-3 w-full mb-3" placeholder="Alamat Lokasi">
+<select id="jenis" class="border p-3 w-full mb-3">
+<option>Lampu Mati</option><option>Tiang Rusak</option><option>Kabel Bermasalah</option><option>Lampu Berkedip</option>
+</select>
+<textarea id="deskripsi" class="border p-3 w-full mb-3" placeholder="Deskripsi Kerusakan"></textarea>
+<input id="foto" type="file" class="mb-3">
+<button class="bg-green-600 text-white p-3 rounded w-full">Kirim Aduan</button>
+</form>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
